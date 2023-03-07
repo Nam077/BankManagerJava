@@ -135,10 +135,6 @@ public class QuanLy {
         }
         int choice = nguoiDung.showMenu();
         switch (choice) {
-//            System.out.println("1. Nạp tiền");
-//            System.out.println("2. Chuyển tiền");
-//            System.out.println("3. Rút tiền");
-//            System.out.println("4. Kiểm tra số dư tài khoản");
             case 1:
                 System.out.print("Nhập số tiền muốn nạp: ");
                 int soTienNap = scanner.nextInt();
